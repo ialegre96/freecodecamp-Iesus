@@ -1,0 +1,80 @@
+h1 {
+    text-align: center;
+}
+
+
+
+.marker {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+
+/*
+    existen 2 tipos de modelos de color: RGB (Red, Green, Blue), usado en dispositivos electronicos y el substractivo CMYK (cyan, magenta, yellow, black) usado en impresiones.
+
+    0 es el 0% 
+    255 es el 100%
+
+    Primary Colors:                                 Secondary Colors:
+    red: rgb(255,0,0);                              yelloy: rgb(255,255,0);
+    green: rgb(0, 255, 0);                          cyan: rgb(0,255,255);
+    blue: rgb(0, 0, 255);                           magenta: rgb(255,0,255);
+                                                    black: rgb(0,0,0);
+
+    Terciary Colors:
+    orange: rgb(255,127,0);
+    spring green: rgb(0,255,127);
+    violet: rgb(127,0,255);
+    chartreuse green: rgb(127,255,0);
+    azure: rgb(0,127,255);
+    rose: rgb(255,0,127);
+
+*/
+
+.one {
+    background-color: rgb(255, 255, 0);
+}
+
+.two {
+    background-color: rgb(0, 255, 255);
+}
+
+.three {
+    background-color: rgb(255, 0, 255);
+}
+
+/*
+otra Forma de Escribir los colores es el Hexadecimal o solo Hex, solo es otra forma de valores RGB
+
+empiezan con un # y luego continuan con 6 caracteres desde 0-9 y A-F, el primer par represennta rojo, el segundo par representa el verde y el tercer par representa azul
+
+ejm: #4b5320
+
+00: es el 0%;
+FF es el 100%;
+
+hex
+green: #00FF00
+
+rgb
+green: rgb(0,255,0)
+
+*/
+
+.one {
+    background-color: #ffff00;
+}
+
+.two {
+    background-color: #00ffff;
+}
+
+.three {
+    background-color: #ff00ff;
+}
